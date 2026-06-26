@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "msptc: A configuration-driven simulation core for molten-salt parabolic-trough CSP"
+abstract: >-
+  Configuration-driven Python simulation core for parabolic-trough concentrating
+  solar power with molten salt, covering analytical error-cone optics, Forristall
+  HCE thermodynamics, collector loop, thermal storage and power block, altitude-
+  dependent air properties, freeze protection, exergy, and techno-economic and
+  market-value analysis.
+type: software
+authors:
+  - family-names: Han
+    given-names: Zhaohui
+    email: hzh1211@gmail.com
+license: MIT
+repository-code: "https://github.com/han348661657/msptc"
+version: "1.0.0"
+date-released: "2026-06-26"
+keywords:
+  - concentrating solar power
+  - parabolic trough collector
+  - molten salt
+  - high-altitude
+  - intercept factor
+# After the first Zenodo-archived release, add the minted DOI here, e.g.:
+# doi: "10.5281/zenodo.XXXXXXX"

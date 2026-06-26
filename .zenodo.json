@@ -1,0 +1,17 @@
+{
+  "title": "msptc: A configuration-driven simulation core for molten-salt parabolic-trough CSP",
+  "description": "Configuration-driven Python simulation core for parabolic-trough concentrating solar power with molten salt: analytical error-cone optics, Forristall HCE thermodynamics, collector loop, thermal storage and power block, altitude-dependent air properties, freeze protection, exergy, and techno-economic and market-value analysis.",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    { "name": "Han, Zhaohui" }
+  ],
+  "keywords": [
+    "concentrating solar power",
+    "parabolic trough collector",
+    "molten salt",
+    "high-altitude",
+    "intercept factor"
+  ]
+}
