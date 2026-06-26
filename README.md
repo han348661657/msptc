@@ -2,9 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-%E2%89%A53.10-blue.svg)
-<!-- After the first Zenodo release, add the DOI badge here:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20896807.svg)](https://doi.org/10.5281/zenodo.20896807)
 
 A configuration-driven Python simulation core for **parabolic-trough concentrating solar power (CSP)** plants using **molten salt** as the heat-transfer fluid. It chains optics → receiver thermodynamics → collector loop → thermal storage / power block → variable-DNI dynamics, with altitude-dependent air properties, freeze protection, exergy, and techno-economic / market-value analysis.
 
@@ -114,15 +112,18 @@ config/       Default configuration (default.json)
 
 ## Citation
 
-If you use this software, please cite it via [`CITATION.cff`](CITATION.cff). A Zenodo DOI will be
-added here once the first release is archived.
+If you use this software, please cite it via [`CITATION.cff`](CITATION.cff), and cite the archived
+release through its DOI: [10.5281/zenodo.20896807](https://doi.org/10.5281/zenodo.20896807).
 
 ## License
 
 Released under the [MIT License](LICENSE).
 
-### Third-party code
+### Third-party code and method references
 
-- `msptc/vendor/sunposition.py` — © 2021 Samuel Bear Powell, MIT License (Solar Position Algorithm).
-- `msptc/vendor/clear_sky_radiation_REST2.py` — implementation of the REST2 clear-sky irradiance
-  model after C. A. Gueymard, *Solar Energy* **82** (2008) 272–285.
+- `msptc/vendor/sunposition.py` — © 2021 Samuel Bear Powell, MIT License (Solar Position
+  Algorithm), redistributed unmodified under its original license.
+- `msptc/vendor/clear_sky_radiation_REST2.py` — an original implementation by the author of the
+  REST2 clear-sky irradiance model (C. A. Gueymard, *Solar Energy* **82** (2008) 272–285), covered
+  by this repository's MIT license. The reference is an academic citation for the model, not a
+  third-party code dependency.
