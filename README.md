@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-%E2%89%A53.10-blue.svg)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20896807.svg)](https://doi.org/10.5281/zenodo.20896807)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20896806.svg)](https://doi.org/10.5281/zenodo.20896806)
 
 A configuration-driven Python simulation core for **parabolic-trough concentrating solar power (CSP)** plants using **molten salt** as the heat-transfer fluid. It chains optics → receiver thermodynamics → collector loop → thermal storage / power block → variable-DNI dynamics, with altitude-dependent air properties, freeze protection, exergy, and techno-economic / market-value analysis.
 
@@ -113,7 +113,7 @@ config/       Default configuration (default.json)
 ## Citation
 
 If you use this software, please cite it via [`CITATION.cff`](CITATION.cff), and cite the archived
-release through its DOI: [10.5281/zenodo.20896807](https://doi.org/10.5281/zenodo.20896807).
+release through its DOI: [10.5281/zenodo.20896806](https://doi.org/10.5281/zenodo.20896806).
 
 ## License
 
